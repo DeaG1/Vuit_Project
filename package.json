@@ -6,22 +6,34 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
-  },"engines": {     "node": ">=14.0.0",     "yarn": ">=1.22.0",     "npm": "usar yarn"   },
+    "lint": "next lint",
+    "prettier": "prettier --write .",
+    "prepare": "husky install"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "yarn": ">=1.22.0",
+    "npm": "usar yarn"
+  },
   "dependencies": {
+    "next": "latest",
     "react": "latest",
-    "react-dom": "latest",
-    "next": "latest"
+    "react-dom": "latest"
   },
   "devDependencies": {
-    "typescript": "latest",
-    "@types/react": "latest",
+    "@commitlint/cli": "^17.7.2",
+    "@commitlint/config-conventional": "^17.7.0",
     "@types/node": "latest",
+    "@types/react": "latest",
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
-    "postcss": "latest",
-    "tailwindcss": "latest",
     "eslint": "latest",
-    "eslint-config-next": "latest"
+    "eslint-config-next": "latest",
+    "husky": "^8.0.3",
+    "postcss": "latest",
+    "prettier": "^3.0.3",
+    "tailwindcss": "latest",
+    "typescript": "latest",
+    "yarn": "^1.22.19"
   }
 }
