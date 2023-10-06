@@ -9,9 +9,5 @@ export default function Home() {
       .then((resposta) => resposta.json())
       .then((data) => setTexto(data));
   }, []);
-  return (
-    <main>
-      <h1>{texto.texto}</h1>
-    </main>
-  );
+  return <></>;
 }

@@ -1,11 +1,53 @@
-* {
-  box-sizing: border-box;
+:root {
+  background-color: #eaeaeb;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  margin: 0 auto;
   padding: 0;
-  margin: 0;
+  border-radius: 0;
 }
 
-body {
-  width: 100vw;
-  height: 100vh;
-  background-color: blueviolet;
+/* Estilo padrão do ícone do YouTube */
+.youtube-icon {
+  color: #0073e6; /* Cor padrão do ícone */
+  transition: color 0.3s ease; /* Transição suave para a cor */
+}
+
+/* Efeito hover */
+.youtube-icon:hover {
+  color: #ff0000; /* Cor do ícone ao passar o mouse por cima */
+}
+
+/* Estilo padrão do ícone do Linkedin */
+.linkedin-icon {
+  color: #0073e6; /* Cor padrão do ícone */
+  transition: color 0.3s ease; /* Transição suave para a cor */
+}
+
+/* Efeito hover */
+.linkedin-icon:hover {
+  color: #1900ff; /* Cor do ícone ao passar o mouse por cima */
+}
+
+/* Estilo padrão do ícone do Facebook */
+.facebook-icon {
+  color: #0073e6; /* Cor padrão do ícone */
+  transition: color 0.3s ease; /* Transição suave para a cor */
+}
+
+/* Efeito hover */
+.facebook-icon:hover {
+  color: #1900ff; /* Cor do ícone ao passar o mouse por cima */
+}
+
+/* Estilo padrão do ícone do Instagram */
+.instagram-icon {
+  color: #bc2a8d; /* Cor padrão do ícone */
+  transition: color 0.3s ease; /* Transição suave para a cor */
+}
+
+/* Efeito hover */
+.instagram-icon:hover {
+  color: #ff6347; /* Cor do ícone ao passar o mouse por cima */
 }
