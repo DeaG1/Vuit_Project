@@ -10,7 +10,8 @@
     "prettier": "prettier --write .",
     "prepare": "husky install",
     "css:build": "postcss styles/tailwind.css -o public/css/tailwind.css",
-    "css:watch": "postcss styles/tailwind.css -o public/css/tailwind.css --watch"
+    "css:watch": "postcss styles/tailwind.css -o public/css/tailwind.css --watch",
+    "postinstall": "prisma generate"
   },
   "engines": {
     "node": ">=14.0.0",
