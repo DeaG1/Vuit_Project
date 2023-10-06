@@ -14,7 +14,6 @@ const WeAre = () => {
           <h1 className="text-4xl lg:text-7xl font-bold text-primary mb-14">
             {weAreContent.text.heading}
           </h1>
-          /
           {weAreContent.text.description && (
             <p className="text-2xl lg:text-3xl mb-10">
               {weAreContent.text.description}

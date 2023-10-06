@@ -22,7 +22,7 @@ export default function RootLayout({
           <Hero />
         </div>
         <div className="flex items-center">
-          <div className="flex item relative right-90 translate-x-[35%]">
+          <div className="flex item relative right-90 translate-x-[10%]">
             <iframe
               src="https://www.youtube.com/embed/kdPSpUR9BLY"
               width={800}
